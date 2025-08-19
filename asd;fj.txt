@@ -1,0 +1,21 @@
+<div class="project-card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+            <div class="project-header">
+              <h3 class="project-title">پلتفرم مدیریت محتوا</h3>
+              <div class="project-links">
+                <a href="https://github.com/estariorios/estariorios/" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                
+              </div>
+            </div>
+            <p class="project-description">
+              یک سیستم مدیریت محتوای پیشرفته با قابلیت&zwnj;های چندزبانه و پشتیبانی
+              از انواع محتوای دیجیتال
+            </p>
+            <div class="project-tags">
+              <span class="tag">Django</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Redis</span>
+              <span class="tag">Docker</span>
+            </div>
+          </div>

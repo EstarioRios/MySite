@@ -543,14 +543,14 @@
     <header>
       <nav>
         <div class="logo">
-          <img src="logo.png" alt="لوگو" />
+          <img src="./logo.png" alt="لوگو" />
           <span> My Site</span>
         </div>
         <ul class="nav-links">
-          <li><a href="#home">خانه</a></li>
-          <li><a href="#about">درباره من</a></li>
+          <li><a href="#home">درباره من</a></li>
+
           <li><a href="#skills">مهارت&zwnj;ها</a></li>
-          <li><a href="#showcase">نمونه کارها</a></li>
+
           <li><a href="#projects">پروژه&zwnj;ها</a></li>
           <li><a href="#contact">تماس</a></li>
         </ul>
@@ -561,12 +561,14 @@
       <section id="home" class="hero">
         <div class="hero-content">
           <h1>سلام، من ابوالفضل هستم</h1>
-          <p class="subtitle">توسعه&zwnj;دهنده Full-Stack و متخصص DevOps</p>
+          <p class="subtitle">توسعه&zwnj;دهنده Back-End و متخصص DevOps</p>
           <p class="hero-description">
-            با بیش از 3 سال تجربه در طراحی و توسعه وب&zwnj;اپلیکیشن&zwnj;های
-            مدرن و مقیاس&zwnj;پذیر. متخصص در معماری&zwnj;های میکروسرویس، توسعه
-            API های RESTful و پیاده&zwnj;سازی راهکارهای DevOps. عاشق یادگیری
-            تکنولوژی&zwnj;های جدید و حل چالش&zwnj;های پیچیده فنی.
+            با بیش از چندین سال تجربه در طراحی و توسعه وب&zwnj;اپلیکیشن&zwnj;های
+            مدرن و مقیاس&zwnj;پذیر، مسلط به مفاهیم بک&zwnj;اند، طراحی
+            معماری&zwnj;های بهینه و توسعه APIهای RESTful. آشنا با مفاهیم DevOps
+            و پیاده&zwnj;سازی فرآیندهای اتوماسیون برای استقرار سریع و پایدار.
+            علاقه&zwnj;مند به یادگیری فناوری&zwnj;های نوین و ارائه راهکارهای
+            خلاقانه برای حل چالش&zwnj;های پیچیده فنی.
           </p>
           <div class="cta-buttons">
             <a href="#projects" class="btn btn-primary">
@@ -683,38 +685,12 @@
         </div>
       </section>
 
-      <section id="showcase" class="showcase">
-        <div class="container">
-          <h2 class="section-title">نمونه&zwnj;هایی از کار من</h2>
-          <div class="gif-gallery">
-            <div
-              class="gif-card"
-              style="opacity: 1; transform: translateY(0px); transition: 0.6s"
-            >
-              <img src="coding-gif-1.gif" alt="کد زدن" />
-            </div>
-            <div
-              class="gif-card"
-              style="opacity: 1; transform: translateY(0px); transition: 0.6s"
-            >
-              <img src="devops-gif-1.gif" alt="DevOps" />
-            </div>
-            <div
-              class="gif-card"
-              style="opacity: 1; transform: translateY(0px); transition: 0.6s"
-            >
-              <img src="coding-gif-2.gif" alt="توسعه" />
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="projects" class="projects">
         <h2 class="section-title">پروژه&zwnj;های من</h2>
         <div class="projects-grid">
           <div
             class="project-card"
-            style="opacity: 0; transform: translateY(30px); transition: 0.6s"
+            style="opacity: 1; transform: translateY(0px); transition: 0.6s"
           >
             <div class="project-header">
               <h3 class="project-title">پلتفرم چند فروشگاهی</h3>
@@ -742,7 +718,7 @@
           </div>
           <div
             class="project-card"
-            style="opacity: 0; transform: translateY(30px); transition: 0.6s"
+            style="opacity: 1; transform: translateY(0px); transition: 0.6s"
           >
             <div class="project-header">
               <h3 class="project-title">وب سایت مدیریت آموزشگاه</h3>
@@ -768,7 +744,7 @@
 
           <div
             class="project-card"
-            style="opacity: 0; transform: translateY(30px); transition: 0.6s"
+            style="opacity: 1; transform: translateY(0px); transition: 0.6s"
           >
             <div class="project-header">
               <h3 class="project-title">ربات تلگرامی "پلن یار"</h3>
@@ -795,7 +771,7 @@
 
           <div
             class="project-card"
-            style="opacity: 0; transform: translateY(30px); transition: 0.6s"
+            style="opacity: 1; transform: translateY(0px); transition: 0.6s"
           >
             <div class="project-header">
               <h3 class="project-title">پلتفرم ثبت سفارش</h3>
@@ -874,6 +850,110 @@
           el.style.transition = "all 0.6s ease";
           observer.observe(el);
         });
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
     </script>
     <!-- Code injected by live-server -->
     <script>
